@@ -82,7 +82,7 @@ const Footer = () => {
           component={"a"}
           target="_blank"
           rel="noreferrer noopener"
-          href="https://google.com"
+          href="/"
           justify="center"
           style={{
             textDecoration: "none",
