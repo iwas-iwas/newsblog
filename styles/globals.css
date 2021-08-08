@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+header {
+  text-align: center;
+  margin: 10px 0;
+}
+header a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+header h1, header h2 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  background: #f9f9f9;
+
+}
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -20px; /* gutter size offset */
+  margin-top: 20px;
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 20px; /* gutter size */
+  background-clip: padding-box;
+}
+.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+  margin-bottom: 30px;
+}
+/* 
+footer {
+  
+  color: #bbb;
+  text-align: center;
+  margin-top: auto
+} 
+*/
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* navbar */
+nav {
+  margin: 20px auto 40px;
+  display: flex;
+  align-items: center;
+}
+nav h1 {
+  margin-left: 10px;
+}
+nav ul {
+  margin-left: auto;
+  list-style-type: none;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+  margin-left: 16px;
+}
+nav li.btn {
+  padding: 10px 16px;
+  border: 2px solid var(--primary);
+  border-radius: 30px;
+  font-weight: 600;
+  color: var(--primary);
+  cursor: pointer;
+}
+nav li.btn:hover {
+  color: white;
+  background: var(--primary);
+}
+
