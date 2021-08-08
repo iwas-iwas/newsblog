@@ -47,7 +47,7 @@ const Social = ({ color }) => {
           color={color ? "primary" : "secondary"}
         />
       </Grid>
-      <Grid
+      {/* <Grid
         item
         component={"a"}
         target="_blank"
@@ -58,7 +58,7 @@ const Social = ({ color }) => {
           className={classes.snsIcon}
           color={color ? "primary" : "secondary"}
         />
-      </Grid>
+      </Grid> */}
     </Grid>
   );
 };

@@ -52,18 +52,14 @@ export default function Header() {
           className={classes.toolbarTitle}
         >
         <Link href="/" style={{ textDecoration: 'none', color:"#000000"}}>
-          Iwas Blog Template
+          Iwas News Blog
         </Link>
         </Typography>
         {/* <IconButton>
           <SearchIcon />
         </IconButton> */}
-        <Button href="/" variant="outlined" size="small" >
-          Newsletter
-        {/* <Link href="/" passHref>
-          <a>Newsletter</a>
-        </Link> */}
-          </Button>
+        {/* <Button href="/" variant="outlined" size="small" >Newsletter</Button> */}
+        <Button href="/" size="small">Newsletter</Button>
       </Toolbar>
       <Toolbar component="nav" variant="dense" className={classes.toolbarSecondary}>
         {sections.map((section) => (

@@ -4,18 +4,15 @@ import { makeStyles } from "@material-ui/styles";
 import { Container, Grid, Typography } from "@material-ui/core";
 import Social from "./Social";
 
-export const socialMedia = {
-  instagram: "https://www.google.com/",
-  facebook: "https://www.google.com/",
-  github:
-    "https://www.google.com/",
-  homepage: "https://www.google.com/",
-};
+// export const socialMedia = {
+//   instagram: "https://www.google.com/",
+//   github:
+//     "https://www.google.com/",
+// };
 
 export const routes = [
   { name: "Home", link: "/" },
   { name: "About", link: "/about" },
-  // { name: "path name", link: "link url" }, like this
 ];
 
 const useStyles = makeStyles((theme) => ({
