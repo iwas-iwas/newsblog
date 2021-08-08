@@ -52,7 +52,7 @@ export default function Header() {
           className={classes.toolbarTitle}
         >
         <Link href="/" style={{ textDecoration: 'none', color:"#000000"}}>
-          Iwas News Blog
+          Iwas Blog
         </Link>
         </Typography>
         {/* <IconButton>
