@@ -14,8 +14,7 @@ const NextComposed = React.forwardRef(function NextComposed(props, ref) {
   );
 });
 
-// A styled version of the Next.js Link component:
-// https://nextjs.org/docs/#with-link
+// A styled version of the Next.js Link component (with material UI), e.g., buttons, icons with links:
 function Link(props) {
   const {
     href,
