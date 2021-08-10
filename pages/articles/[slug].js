@@ -62,7 +62,7 @@ export async function getStaticProps({ params }) {
 
 }
 
-export default function RecipeDetails({ article }) {
+export default function ArticleDetails({ article }) {
   if (!article) return <Skeleton />
   
   const { featuredImage, title, readingTime, ingidients, body } = article.fields;
