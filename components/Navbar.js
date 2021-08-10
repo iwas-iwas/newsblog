@@ -28,12 +28,12 @@ const useStyles = makeStyles((theme) => ({
 
 
 const sections = [
-  { title: 'Category 1', url: '/category-1' },
-  { title: 'Category 2', url: '/category-2' },
-  { title: 'Category 3', url: '/category-3' },
-  { title: 'Category 4', url: '/category-4' },
-  { title: 'Category 5', url: '/category-5' },
-  { title: 'Category 6', url: '/category-6' },
+  { title: 'Category 1', url: '/categories/one' },
+  { title: 'Category 2', url: '/categories/two' },
+  { title: 'Category 3', url: '/categories/three' },
+  { title: 'Category 4', url: '/categories/four' },
+  { title: 'Category 5', url: '/categories/five' },
+  { title: 'Category 6', url: '/categories/six' },
 ];
 
 export default function Header() {
