@@ -2,6 +2,7 @@ import { createClient } from "contentful"
 import BlogCard from "../../components/BlogCard"
 import Masonry from 'react-masonry-css'
 import Container from '@material-ui/core/Container'
+import Skeleton from "../../components/Skeleton";
 
 
 export const getStaticPaths = async () => {
