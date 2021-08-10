@@ -49,6 +49,7 @@ export async function getStaticProps(context) {
 }
 
 export default function CategoryPage({ articles }) {
+  if (!articles) return <Skeleton />
 
   const breakpoints = {
     default: 3,
